@@ -1,0 +1,151 @@
+html{
+    overflow-x: hidden;
+}
+#title {
+  background-color: #ff4c68;
+}
+h1 {
+  font-family: "Montserrat, sans-serif";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.container-fluid {
+  padding: 5% 15%;
+}
+.bi {
+  padding-right: 5px;
+}
+.navbar-brand {
+  font-size: 50px;
+}
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+.nav-item {
+  padding: 0px 10px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+.download-btn {
+  margin: 3rem 0.5rem;
+}
+.title-heading {
+  color: #fff;
+}
+.title-img {
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+@media only screen and (max-width: 1028px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    padding-bottom: 50px;
+  }
+  #title {
+    /* background-color: yellow; */
+    text-align: center;
+  }
+}
+
+#features {
+  position: relative;
+  background-color: #fff;
+  padding: 4.5rem;
+}
+.features-heading {
+  font-size: 2rem;
+  font-family: "Montserrat-Bold";
+  font-weight: 800;
+}
+.features-content {
+  color: #8f8f8f;
+}
+.features-icons {
+  font-size: 45px;
+  color: #ef8172;
+  transition: color 0.5s;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.features-icons:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  /* padding: 3% 15%; */
+  position: relative;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.test-content {
+  font-family: "Montserrat-Bold";
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+.test-img {
+  border-radius: 50%;
+  width: 20%;
+  /* padding: 20px; */
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 3% 0;
+}
+
+.press-logo {
+  width: 20%;
+  padding: 20px 20px 30px;
+}
+.carousel-item {
+  padding: 4% 15%;
+}
+
+#pricing {
+  padding: 7% 10%;
+}
+.price-heading {
+  font-family: "Montserrat-Bold";
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.price-subheading {
+  font-family: "Montserrat-Bold";
+  font-size: 1.5rem;
+}
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  color: #fff;;
+  text-align: center;
+}
+.cta-heading{
+    font-size: 2.5rem;
+
+}
+.cta-btn{
+    margin: 20px;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+#footer{
+    padding: 1% 15%;
+    text-align: center;
+}
+.fo-icons{
+    margin: 0 5px;
+    font-size: 20px;
+}
